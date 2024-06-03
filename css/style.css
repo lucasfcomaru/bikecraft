@@ -1,4 +1,7 @@
 @import url("./global/global.css");
+@import url("./utilidades/tipografia.css");
+@import url("./utilidades/cores.css");
+
 @import url("./global/header.css");
 
 /* Utilidades */
@@ -6,3 +9,6 @@
 
 /* Home */
 @import url("./home/introducao.css");
+
+/* Bicicletas */
+@import url("./bicicletas/bicicletas-lista.css");
