@@ -26,3 +26,7 @@ img {
 img[src$=".jpg"] {
     border-radius: 4px;
 }
+
+img[src$=".svg"] {
+    width: auto;
+}
