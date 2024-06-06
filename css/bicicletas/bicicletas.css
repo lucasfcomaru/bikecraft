@@ -1,5 +1,6 @@
 .bicicletas-bg {
     background-color: var(--cor-11);
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 30%);
 }
 
 .bicicletas {
@@ -29,6 +30,7 @@
     .bicicletas-conteudo {
         display: grid;
         grid-template-columns: 1fr auto;
+        align-content: start;
 
         & h2, p {
             grid-column: 1/-1;
@@ -65,5 +67,39 @@
                 width: 24px;
             }
         }
+    }
+}
+
+@media (max-width: 800px) {
+    .bicicletas-bg {
+        background: var(--cor-11);
+    }
+    
+    .bicicletas {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bicicletas .bicicletas-conteudo {
+        grid-template-columns: 1fr;
+
+        & ul {
+            margin-bottom: 32px;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 20px;
+        }
+
+        & a {
+            place-self: start;
+        }
+    }
+}
+@media (max-width: 400px) {
+    .bicicletas .bicicletas-conteudo ul {
+        grid-template-columns: 1fr;
     }
 }
