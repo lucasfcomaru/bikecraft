@@ -68,3 +68,7 @@
         }
     }
 }
+
+#bicicleta .bicicletas-lista ul{
+    padding: 20px 0 20px 0;
+}
