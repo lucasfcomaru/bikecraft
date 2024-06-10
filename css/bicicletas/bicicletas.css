@@ -57,6 +57,7 @@
         & ul {
             display: grid;
             gap: 16px;
+            margin-top: 16px;
         }
 
         & li {

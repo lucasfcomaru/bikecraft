@@ -191,7 +191,6 @@
 }
 
 @media (max-width: 400px) {
-
     .orcamento .orcamento-produto {
         grid-template-columns: 1fr;
     }
