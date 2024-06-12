@@ -29,11 +29,15 @@
                 background: var(--cor-0);
                 margin-top: 4px;
                 position: absolute;
+                transition: 0.3s;
             }
 
             &:hover::after {
                 width: 100%;
-                transition: 0.3s;
+            }
+
+            &.ativo::after {
+                width: 100%;
             }
         }
     }

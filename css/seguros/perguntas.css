@@ -48,6 +48,11 @@
         padding-left: 20px;
         padding-top: 16px;
         max-width: 80ch;
+        display: none
+    }
+
+    .show {
+        display: block;
     }
 }
 
